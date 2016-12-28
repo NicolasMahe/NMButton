@@ -1,0 +1,25 @@
+PODS:
+  - NMButton (0.0.1):
+    - NMUIExtension
+  - NMCGExtension (0.0.1)
+  - NMUIExtension (0.0.1):
+    - NMCGExtension
+    - SnapKit (~> 3.0)
+  - SnapKit (3.1.2)
+
+DEPENDENCIES:
+  - NMButton (from `../`)
+
+EXTERNAL SOURCES:
+  NMButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NMButton: 1c48e665144f8188d8b9d42d95f4e04d40652da0
+  NMCGExtension: 734b1af8b2c5651e8191ef0367b1b9e75e820e54
+  NMUIExtension: 608d1e38c07613068ba44ab1303686d8085db383
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+
+PODFILE CHECKSUM: 1c7c65ebcd3c488a2786903361b0b831467f294a
+
+COCOAPODS: 1.1.1
