@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonWithViewAndIntrinsicSizeViewController" customModule="NMBaseUIClasses_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="Vuo-Sg-SOw" id="zhH-TU-XUn"/>
+                <outlet property="view" destination="Xnb-4x-ovY" id="H53-DK-BsD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Xnb-4x-ovY">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Button with intrinsic size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vuo-Sg-SOw">
+                    <rect key="frame" x="10" y="10" width="250" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="DJ5-TO-cne"/>
+                        <constraint firstAttribute="height" constant="100" id="aR9-DT-O4v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Vuo-Sg-SOw" secondAttribute="bottom" constant="10" id="9h8-i4-xCz"/>
+                <constraint firstItem="Vuo-Sg-SOw" firstAttribute="leading" secondItem="Xnb-4x-ovY" secondAttribute="leading" constant="10" id="Grb-W3-ZjH"/>
+                <constraint firstAttribute="trailing" secondItem="Vuo-Sg-SOw" secondAttribute="trailing" constant="10" id="Wpp-tG-jWh"/>
+                <constraint firstItem="Vuo-Sg-SOw" firstAttribute="top" secondItem="Xnb-4x-ovY" secondAttribute="top" constant="10" id="xo1-Fr-YQR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-222"/>
+        </view>
+    </objects>
+</document>

@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DA582F1E137D86004E710C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA582A1E137D85004E710C /* ButtonViewController.swift */; };
+		03DA58301E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA582B1E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.swift */; };
+		03DA58311E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DA582C1E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.xib */; };
+		03DA58321E137D86004E710C /* ButtonWithViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA582D1E137D86004E710C /* ButtonWithViewViewController.swift */; };
+		03DA58331E137D86004E710C /* ButtonWithViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DA582E1E137D86004E710C /* ButtonWithViewViewController.xib */; };
 		18C1FDBC955FEE278D10473B /* Pods_NMButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3B28BDEC9A8CB8DA8355E3 /* Pods_NMButton_Tests.framework */; };
 		340318274D5D58C16CDC0966 /* Pods_NMButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FA44EACF5EC58CC022DF53 /* Pods_NMButton_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -28,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03DA582A1E137D85004E710C /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		03DA582B1E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithViewAndIntrinsicSizeViewController.swift; sourceTree = "<group>"; };
+		03DA582C1E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonWithViewAndIntrinsicSizeViewController.xib; sourceTree = "<group>"; };
+		03DA582D1E137D86004E710C /* ButtonWithViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithViewViewController.swift; sourceTree = "<group>"; };
+		03DA582E1E137D86004E710C /* ButtonWithViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonWithViewViewController.xib; sourceTree = "<group>"; };
 		0CBA7BAE9EB6228DEFA5C5CF /* Pods-NMButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMButton_Example/Pods-NMButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24FA44EACF5EC58CC022DF53 /* Pods_NMButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28188E26B0CA9221D164AA89 /* Pods-NMButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMButton_Example/Pods-NMButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -36,7 +45,6 @@
 		607FACD01AFB9204008FA782 /* NMButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -94,7 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				03DA582A1E137D85004E710C /* ButtonViewController.swift */,
+				03DA582B1E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.swift */,
+				03DA582C1E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.xib */,
+				03DA582D1E137D86004E710C /* ButtonWithViewViewController.swift */,
+				03DA582E1E137D86004E710C /* ButtonWithViewViewController.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -248,8 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DA58311E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				03DA58331E137D86004E710C /* ButtonWithViewViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,8 +375,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				03DA582F1E137D86004E710C /* ButtonViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				03DA58301E137D86004E710C /* ButtonWithViewAndIntrinsicSizeViewController.swift in Sources */,
+				03DA58321E137D86004E710C /* ButtonWithViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
