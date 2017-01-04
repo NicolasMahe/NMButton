@@ -15,7 +15,7 @@ open class NMButton: UIButton {
   // MARK: - Properties
   //----------------------------------------------------------------------------
   
-  var viewController: NMButtonController?
+  var viewController: UIViewController?
   
   //----------------------------------------------------------------------------
   // MARK: - Init controller
@@ -24,8 +24,10 @@ open class NMButton: UIButton {
   /**
   Set a controller to the button
   */
-  open func add(viewController: NMButtonController) {
-    viewController.button = self
+  open func add(viewController: UIViewController) {
+    if let buttonViewController = viewController as? NMButtonController {
+      buttonViewController.button = self
+    }
     
     self.setTitle(nil, for: UIControlState())
     viewController.view.isUserInteractionEnabled = false
@@ -38,10 +40,12 @@ open class NMButton: UIButton {
    Set a controller in the button and resize the button to reach the size of the viewChildSized view.
    */
   open func add(
-    viewControllerChildSized viewController: NMButtonController,
+    viewControllerChildSized viewController: UIViewController,
     offset: UIEdgeInsets = UIEdgeInsets.zero
   ) {
-    viewController.button = self
+    if let buttonViewController = viewController as? NMButtonController {
+      buttonViewController.button = self
+    }
     
     self.setTitle(nil, for: UIControlState())
     viewController.view.isUserInteractionEnabled = false
@@ -59,7 +63,9 @@ open class NMButton: UIButton {
   
   override open var isHighlighted: Bool {
     didSet {
-      self.viewController?.setHighlighted(self.isHighlighted)
+      if let buttonViewController = self.viewController as? NMButtonController {
+        buttonViewController.setHighlighted(self.isHighlighted)
+      }
     }
   }
   

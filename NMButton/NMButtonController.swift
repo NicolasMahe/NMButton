@@ -8,12 +8,9 @@
 
 import UIKit
 
-open class NMButtonController: UIViewController {
+public protocol NMButtonController: class {
   
-  open func setHighlighted(_ highlighted: Bool) {
-    print("setHighlighted function not implemented")
-  }
-  
-  public weak var button: NMButton?
+  func setHighlighted(_ highlighted: Bool)
+  weak var button: NMButton? { get set }
 
 }
