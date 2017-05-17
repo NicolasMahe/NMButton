@@ -15,7 +15,7 @@ open class NMButton: UIButton {
   // MARK: - Properties
   //----------------------------------------------------------------------------
   
-  var viewController: UIViewController?
+  public var viewController: UIViewController?
   
   //----------------------------------------------------------------------------
   // MARK: - Init controller
