@@ -29,7 +29,7 @@ open class NMButton: UIButton {
       buttonViewController.button = self
     }
     
-    self.setTitle(nil, for: UIControlState())
+    self.setTitle(nil, for: UIControlState.normal)
     viewController.view.isUserInteractionEnabled = false
     
     self.add(view: viewController.view)
@@ -47,7 +47,7 @@ open class NMButton: UIButton {
       buttonViewController.button = self
     }
     
-    self.setTitle(nil, for: UIControlState())
+    self.setTitle(nil, for: UIControlState.normal)
     viewController.view.isUserInteractionEnabled = false
     
     self.add(
